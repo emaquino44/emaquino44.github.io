@@ -28,9 +28,6 @@ img {
 
 .container1 nav {
     width: 100%;
-    /*        display: flex;
-        justify-content: space-between;
-        align-items: center;*/
     height: 30px;
     position: fixed;
     align-items: center;
@@ -131,15 +128,16 @@ header a:hover {
     top: 50%;
     /*   transform: translateX(-50%) translateY(-50%);
 */
+    margin-top: 200px;
 }
 
 .floating-letters-text li {
     display: inline-block;
-    margin-right: 50px;
-    /*  font-weight: 0;*/
+    margin-right: -20px;
     font-size: 3em;
     opacity: 1;
     transition: all 2.5s ease;
+    margin-top: 200px;
 }
 
 .floating-letters-text li:last-child {
