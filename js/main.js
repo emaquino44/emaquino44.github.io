@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 //Function for Typed letters//
     $(".type").typed({
-        strings: ["^3000 Hello World!", "I am a Full Stack Web Developer", 'Lets Innovate...', 'Lets Inspire...', '..Lets Change the World!', '...Shall we?'],
+        strings: ['^3000 Hello World!', 'Im a Full Stack Web Developer', 'I love building Web Sites.', 'Lets make one together.', 'Lets Begin.....Shall we?'],
         startDelay: 500,
         typeSpeed: 100,
         loop: true
@@ -23,4 +23,3 @@ $(document).ready(function() {
 
 
 });
-

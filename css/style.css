@@ -165,8 +165,8 @@ header a:hover {
 /*    padding-bottom: 45px;*/
 
     padding-top: 45px;
-    background-image: url('../images/myname.jpg');
- /*   background-size: cover;*/
+    background-image: url('../images/ocean1.jpg');
+    background-size: cover;
     background-position: center center;
     background-position: 5px bottom;
     position: relative;
@@ -177,26 +177,26 @@ header a:hover {
   /*  height: 700px;*/
    /* margin-top: 100px;*/
 }
-/*#letters{
+#letters{
     padding-top: 100px;
-}*/
-/*.title1 {
-    padding-top: 303px;
-    padding-left: 820px;
-}*/
+}
+.title1 {
+    padding-top: 183px;
+    padding-left: 500px;
+}
 .last1 {
     letter-spacing: 19px;
     font-size: 69px;
-    ji-grinning: ;
+
 }
 .floating-letters-text {
     list-style: none;
     position: absolute;
-    left:40%;
-  /*  top: 50%;*/
+    left:50%;
+ /*   top: 10%;*/
     transform: translateX(-50%) translateY(-50%);
-    margin-top: 301px;
-    font-size: 10px
+    margin-top: 50px;
+    font-size: 17px
     width: 100%;
     padding-left: 474px;
 
@@ -209,7 +209,7 @@ header a:hover {
     font-size: 5em;
     opacity: 1;
     transition: all 2.5s ease;
-    margin-top: 300px;
+    margin-top: 100px;
     padding: 10px;
 }
 
@@ -251,29 +251,6 @@ header a:hover {
 
 .floating-letters-text.hidden li:nth-child(8) {
     transform: translateX(-100px) translateY(-400px);
-}
-.floating-letters-text.hidden li:nth-child(9) {
-    transform: translateX(-140px) translateY(-120px);
-}
-
-.floating-letters-text.hidden li:nth-child(10) {
-    transform: translateX(59px) translateY(40px);
-}
-
-.floating-letters-text.hidden li:nth-child(11) {
-    transform: translateX(-290px) translateY(307px);
-}
-
-.floating-letters-text.hidden li:nth-child(12) {
-    transform: translateX(360px) translateY(-20px);
-}
-
-.floating-letters-text.hidden li:nth-child(13) {
-    transform: translateX(10px) translateY(-20px);
-}
-
-.floating-letters-text.hidden li:nth-child(14) {
-    transform: translateX(-100px) translateY(-200px);
 }
 
 
