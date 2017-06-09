@@ -149,6 +149,10 @@ header a:hover {
   transition: all ease .5s;
 }
 
+.nav-wrapper {
+    padding-left: 400px;
+    position: fixed;
+}
 /**********IT'S ME Image Section*****************/
 /*
 .flex-container-1 {
@@ -157,17 +161,14 @@ header a:hover {
     height: 800px;
     background: black;
 }*/
-.nav-wrapper {
-    padding-left: 400px;
-    position: fixed;
-}
 .label {
 /*    padding-bottom: 45px;*/
 
-  /*  padding-top: 45px;*/
-    background-image: url('../images/ocean1.jpg');
-    background-size: cover;
+    padding-top: 45px;
+    background-image: url('../images/myname.jpg');
+ /*   background-size: cover;*/
     background-position: center center;
+    background-position: 5px bottom;
     position: relative;
     top: 0;
     bottom: 0;
@@ -179,27 +180,33 @@ header a:hover {
 /*#letters{
     padding-top: 100px;
 }*/
-.title1 {
-    padding-top: 250px;
-    padding-left: 460px;
-}
+/*.title1 {
+    padding-top: 303px;
+    padding-left: 820px;
+}*/
 .last1 {
-    letter-spacing: 30px;
-    font-size: 80px;
+    letter-spacing: 19px;
+    font-size: 69px;
+    ji-grinning: ;
 }
 .floating-letters-text {
     list-style: none;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left:40%;
+  /*  top: 50%;*/
     transform: translateX(-50%) translateY(-50%);
-    margin-top: -260px;
+    margin-top: 301px;
+    font-size: 10px
+    width: 100%;
+    padding-left: 474px;
+
 }
+
 
 .floating-letters-text li {
     display: inline-block;
     margin-right: -20px;
-    font-size: 7em;
+    font-size: 5em;
     opacity: 1;
     transition: all 2.5s ease;
     margin-top: 300px;
@@ -227,7 +234,7 @@ header a:hover {
 }
 
 .floating-letters-text.hidden li:nth-child(4) {
-    transform: translateX(50px) translateY(600px);
+    transform: translateX(50px) translateY(400px);
 }
 
 .floating-letters-text.hidden li:nth-child(5) {
@@ -245,12 +252,33 @@ header a:hover {
 .floating-letters-text.hidden li:nth-child(8) {
     transform: translateX(-100px) translateY(-400px);
 }
-
-.las {
-    margin-right: 300px;
-    padding-left: 70px;
-    color: black;
+.floating-letters-text.hidden li:nth-child(9) {
+    transform: translateX(-140px) translateY(-120px);
 }
+
+.floating-letters-text.hidden li:nth-child(10) {
+    transform: translateX(59px) translateY(40px);
+}
+
+.floating-letters-text.hidden li:nth-child(11) {
+    transform: translateX(-290px) translateY(307px);
+}
+
+.floating-letters-text.hidden li:nth-child(12) {
+    transform: translateX(360px) translateY(-20px);
+}
+
+.floating-letters-text.hidden li:nth-child(13) {
+    transform: translateX(10px) translateY(-20px);
+}
+
+.floating-letters-text.hidden li:nth-child(14) {
+    transform: translateX(-100px) translateY(-200px);
+}
+
+
+
+/**********TYPE Animation Section*****************/
 
 #main1 {
     position: absolute;
@@ -261,19 +289,38 @@ header a:hover {
 
 }
 
-#typing_text {
-    color: white;
-    font-size: 70px
+.type{
+padding-left: -50px;
+    font-size: 20px
     text-align: center;
+    transition-delay: 5s;
 }
 .typed-fade-out{
     opacity: 0;
     animation: 0;
     transition: opacity .25s;
 }
-
-
-
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
 
 
 
@@ -294,7 +341,7 @@ header a:hover {
 .imagebox img {
     border-radius: 80%;
     padding: 9px;
-    width: 400px;
+    width: 500px;
     margin-left: 40px;
     border: 5px solid gray;
     height: 400px;
@@ -313,6 +360,10 @@ img {
     letter-spacing: 5px;
     text-transform: uppercase;
     padding-top: 20px;
+
+}
+.name h3 {
+    height: 80px;
 }
 
 .imagebox p {
@@ -330,7 +381,7 @@ img {
 
 /***********SLIDE Section************************/
 
-.slider {
+/*.slider {
     margin: 0 auto;
     padding: 40px;
     width: 80%;
@@ -340,7 +391,7 @@ img {
 .slide-img {
     height: 140px;
     width: 140px;
-}
+}*/
 
 
 /**********PORTFOLIO Section*************/
@@ -384,6 +435,9 @@ img {
 .container-slider {
     background-color: lightslategray;
 }
+.row.center{
+    margin-left: 50px;
+}
 
 
 
@@ -393,9 +447,10 @@ img {
 
     display: flex;
     justify-content: space-between;
-    margin-top: 200px;
-    height: 200px;
-    padding-left: 35px;
+    margin-top: 80px;
+    height: 500px;
+    padding-left: 290px;
+    background-color: black;
 }
 
 .wrapper4 h3 p {
@@ -415,9 +470,9 @@ aside#sidebar {
     /*width: 25%;*/
     margin-top: 10px;
     margin-right: 380px;
-    display: flex;
+  /*  display: flex;*/
     background-color: lightgray;
-    height: 170px;
+    height: 200px;
     border-radius: 55px;
     padding: 40px 55px 0;
     /*font-size: 30px;*/
@@ -435,6 +490,17 @@ aside#sidebar {
 .button_1:hover {
     background-color: red;
     color: white;
+}
+.dark {
+    text-align: center;
+}
+#section5 {
+     background-image: url('../images/ocean1.jpg');
+     background-position: center center;
+    background-position: 5px bottom;
+    position: relative;
+    top: 0;
+    bottom: 0;
 }
 
 

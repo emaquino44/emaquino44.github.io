@@ -15,7 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/0e7eae8ef6.js"></script>
-    <script src="typed.js"></script>
+    <link rel="shortcut icon" href="images/itsme1.jpg" type="image/x-icon">
 <!--     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script> -->
@@ -28,10 +28,10 @@
 <body>
     <!--    //**************Header Navigation Bar*****************// -->
 <div id="top"></div>
-<nav id="nav1 class="black">
+    <nav id="nav1" class="black center">
             <div class="nav-wrapper center black">
                 <ul id="nav-mobile" class="center hide-on-med-and-down">
-                    <li><img src="images/myname.jpg" style="width:140px;height:64px"></li>
+                    <li><img src="images/myname.jpg" style="width:170px;height:70px;border-radius:5px"></li>
                     <li><a href="#" id="1">Home</a></li>
                     <li><a href="#" id="2">About</a></li>
                     <li><a href="#" id="3">Portofolio</a></li>
@@ -39,16 +39,14 @@
                     <li><a href="https://resume.creddle.io/resume/bl1dr2fmdd1" id="6">Resume</a></li>
                 </ul>
             </div>
-    </div>
-</nav>
+    </nav>
 
 
-    <!--//****************It's Me Image Container****************// -->
+    <!--//****************FLOATING LETTERS / It's Me Image Container****************// -->
    <!--  <section class="flex-container-1">
         <div class="wrapper"> -->
         <div class="label">
-
-                <ul id="letters" class="floating-letters-text hidden">
+                <ul id="letters" class="floating-letters-text hidden" style="text-shadow:10px 10px 10px #37474f;">
                     <li>E</li>
                     <li>M</li>
                     <li>M</li>
@@ -56,14 +54,16 @@
                     <li>L</li>
                     <li>I</li>
                     <li>N</li>
-                    <li>E</li>
+                    <li>E..</li>
+                    <li>A</li>
+                    <li>Q</li>
+                    <li>U</li>
+                    <li>I</li>
+                    <li>N</li>
+                    <li>O</li>
                 </ul>
             <div class="title1">
-                <h1 class="last1">AQUINO</h1>
-                <h4 class="las">Full Stack Developer</h4>
-           </div>
-            <div id="typed-strings" >
-                <p id="typing_text"></p>
+                <h1 class="yellow-text darken-3" style="font-size:55px;margin-left:324px;margin-top:486px;text-shadow:2px 2px 2px goldenrod"><span class="type"></span></h1>
            </div>
         </div>
   <!--       </div>
@@ -75,15 +75,16 @@
         </div>
         <div class="flex-container-2">
             <div class="imagebox">
-                <img src="images/itsme1.jpg" alt="my picture">
+                <img src="images/em2.jpg" alt="my picture">
             </div>
             <div class="imagebox ">
-                <p>I’m a self-motivated and goal-oriented web developer with a creative and curious mind that is always pushing me to achieve outcomes without limits. With an extensive background in leadership and project management, I bring a strong analytical problem solving mindset, along with exemplary organizational skills and excellent communication, to any team. My “Go get ‘em” attitude is the cherry on top of your new favorite skill sundae.
+                <p class="flow-text">I’m a self-motivated and goal-oriented web developer with a creative and curious mind that is always pushing me to achieve outcomes without limits. With an extensive background in leadership and project management, I bring a strong analytical problem solving mindset, along with exemplary organizational skills and excellent communication, to any team. My “Go get ‘em” attitude is the cherry on top of your new favorite skill sundae.</p>
                     <br>
                     <br>
                     <br>
-                    <br> SKILLS: HTML/CSS | Javascript | MEAN Stack | Nodejs | Express | Angular | Mongo | Ruby | Python | </p>
-
+<div class="row">
+                    <p><strong>SKILLS:</strong> HTML/CSS | Javascript | MEAN Stack | Nodejs | Express | Angular | Mongo | Ruby | Python | </p>
+</div>
 
             </div>
         </div>
@@ -92,9 +93,9 @@
  <!--//****************PORTFOLIO*********************// -->
 <section class="portfolio-1" id="section3">
         <div class="wrapper2 black white-text">
-            <h3>Portfolio</h3>
+            <h3>My Portfolio</h3>
         </div>
-    <div class="row">
+    <div class="row center">
         <div class="col s4" style="width:30%">
           <div class="card small" style="height:452px">
             <div class="card-image">
@@ -102,10 +103,10 @@
             </div>
               <span class="card-title grey-text">partnersInCode</span>
             <div class="card-content">
-              <p>This is a great team effort project that I worked on.</p>
+              <p>This app can be used by web developers to search other portfolios and find partnerships doing projects together or just be seen. This is a group project. I'm very proud of this piece. This was built using MEAN stack.</p>
             </div>
             <div class="card-action">
-              <a href="https://partnersincode.herokuapp.com/">Click on this link</a>
+              <a href="https://partnersincode.herokuapp.com/">Check it out</a>
             </div>
           </div>
         </div>
@@ -117,11 +118,10 @@
             </div>
               <span class="card-title grey-text">Filipino Recipe Search</span>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>This app specifically searches for filipino recipes and users can add their own recipes.  This was built using Node.js, Express, SQL.</p>
             </div>
             <div class="card-action">
-              <a href="https://filipino-recipes.herokuapp.com/">This is a link</a>
+              <a href="https://filipino-recipes.herokuapp.com/">Check it Out</a>
             </div>
           </div>
           </div>
@@ -129,48 +129,47 @@
         <div class="col s4" style="width:30%">
           <div class="card small" style="height:452px">
             <div class="card-image">
-              <img src="images/myname.jpg">
+              <img src="images/garden.png">
             </div>
-              <span class="card-title grey-text">PlaceHolder for Project#4</span>
+              <span class="card-title grey-text">Garden Party</span>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>This app can help users remember when to water their plants and the frequency depending on the weather. This is a group project that I worked on at a Hackathon. We won 3rd place.  This was built using Ruby on Rails.</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="http://gardenparty.herokuapp.com/">Check it Out</a>
             </div>
           </div>
       </div>
 </section>
 
 
+
     <!-- //***************Contact / Form Info *****************************//      -->
-    <section class="container-form" id="section5">
-        <div class="wrapper4">
-        </div>
+<section class="container-form" id="section5">
+    <div class="wrapper4"></div>
         <aside id="sidebar">
             <div class="dark">
                 <h3 id="loveto">Hey You! Let's Connect!</h3>
-            <p><i class="fa fa-envelope" aria-hidden="true"></i>hello@emmelineaquino.com</p>
-
+                <p><i class="fa fa-envelope" aria-hidden="true"></i>hello@emmelineaquino.com</p>
+            </div>
+            <div id="iconrow" class="row" style="padding-right:20px;margin:200px;margin-top:-20px;padding-top:20px">
+                <div id="fbicon" class="col s3"><a href="https://www.facebook.com/em.aquino"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                </div>
+                <div id="link" class="col s3"><a href="https://www.linkedin.com/in/emaquino44/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+                </div>
+                <div id="insta" class="col m3"><a href="https://www.instagram.com/em_aquino44/?hl=en"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+                </div>
             </div>
         </aside>
-    </section>
+</section>
 
-<div class="row" style="padding-right:1000px">
-        <div id="fbicon" class="col s4"><a href="https://www.facebook.com/em.aquino"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-        </div>
-        <div id="link" class="col s4"><a href="https://www.linkedin.com/in/emaquino44/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
-        </div>
-        <div id="insta" class="col s4"><a href="https://www.instagram.com/em_aquino44/?hl=en"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
-        </div>
-</div>
-
+    <!-- //***************Footer *****************************//      -->
     <footer class="clearfix ">
         <div class="container-footer">
             <p class="copyright ">&copy; 2017 Created by Emaquino44</p>
         </div>
     </footer>
+    <script src="js/type/js/typed.js"></script>
 </body>
 
 </html>
