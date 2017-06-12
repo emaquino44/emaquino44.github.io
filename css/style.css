@@ -168,7 +168,7 @@ header a:hover {
     background-image: url('../images/ocean1.jpg');
     background-size: cover;
     background-position: center center;
-    background-position: 5px bottom;
+ /*   background-position: 5px bottom;*/
     position: relative;
     top: 0;
     bottom: 0;
