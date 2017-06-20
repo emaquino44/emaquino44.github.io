@@ -505,7 +505,7 @@ aside#sidebar {
 
 /************Media Query**************/
 
-@media (max-width: 735px) {
+/*@media (max-width: 735px) {
     header nav,
     .wrapper {
         width: auto;
@@ -540,4 +540,4 @@ aside#sidebar {
         padding-right: 20px;
         margin-left: -35px;
     }
-}
+}*/
